@@ -1,0 +1,15 @@
+@import '__variables.less';
+
+.input {
+    border: none;
+    height: @const-padding;
+    padding: (@const-padding / 2) @const-padding;
+    line-height: @const-height;
+    margin: @const-margin;
+    max-width: @const-height * 3;
+    border-radius: 5px;
+    &::placeholder {
+        color: darken(#ffffff, 20%);
+        line-height: @const-height;
+    }
+}

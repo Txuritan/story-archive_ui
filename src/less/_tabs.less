@@ -1,0 +1,14 @@
+@import '__variables.less';
+
+.tabs {
+    .tab {
+        height: @const-height;
+        line-height: @const-height;
+        &-panel {
+            display: none;
+            &.tab-panel__active {
+                display: block;
+            }
+        }
+    }
+}

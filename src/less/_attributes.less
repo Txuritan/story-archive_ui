@@ -1,0 +1,119 @@
+@import '__variables.less';
+
+.background {
+    &-color {
+        &__blue {
+            background-color: @color-blue;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-blue__active;
+                }
+            }
+        }
+        &__blue_dark {
+            background-color: @color-blue__dark;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-blue__dark_active;
+                }
+            }
+        }
+        &__gray {
+            background-color: @color-gray;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-gray__active;
+                }
+            }
+        }
+        &__purple {
+            background-color: @color-purple;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-purple__active;
+                }
+            }
+        }
+        &__red {
+            background-color: @color-red;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-red__active;
+                }
+            }
+        }
+        &__teal {
+            background-color: @color-teal;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-teal__active;
+                }
+            }
+        }
+        &__yellow {
+            background-color: @color-yellow;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-yellow__active;
+                }
+            }
+        }
+        &__white {
+            background-color: @color-white;
+            transition: background-color 0.1s ease;
+            &_hover {
+                &:hover {
+                    background-color: @color-white__active;
+                }
+            }
+        }
+    }
+}
+
+.text {
+    &-color {
+        &__black {
+            color: @color-black;
+            transition: color 0.1s ease;
+            &_hover {
+                &:hover {
+                    color: @color-black__active;
+                }
+            }
+        }
+        &__white {
+            color: @color-white;
+            transition: color 0.1s ease;
+            &_hover {
+                &:hover {
+                    color: @color-white__active;
+                }
+            }
+        }
+    }
+}
+
+.add {
+    &__padding {
+        &_sides {
+            padding-left: @const-padding;
+            padding-right: @const-padding;
+        }
+    }
+}
+
+.disable {
+    &__margin {
+        margin: 0;
+    }
+    &__padding {
+        padding: 0;
+    }
+}

@@ -1,0 +1,39 @@
+@import '__variables.less';
+.flex {
+    display: flex;
+    width: auto;
+    &-center {
+        &__vertical {
+            display: flex;
+            justify-content: center;
+        }
+        &__horizontal {
+            display: flex;
+            align-items: center;
+        }
+    }
+    &-column {
+        flex-direction: column;
+    }
+    &-item {
+        flex: 1 0 auto;
+        &__left {
+            flex: 0 0 auto;
+        }
+        &__center {
+            flex: 1 0;
+            &_auto {
+                flex: 1 0 auto;
+            }
+        }
+        &__right {
+            flex: 0 1 auto;
+        }
+    }
+    &-row {
+        flex-direction: row;
+    }
+    &-wrap {
+        flex-wrap: wrap;
+    }
+}

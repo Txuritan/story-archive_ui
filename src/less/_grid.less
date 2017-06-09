@@ -1,0 +1,21 @@
+@import '__variables.less';
+.grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 ((@const-padding / 3.12500) * -1) 0 0;
+    &__cell {
+        flex: 1;
+        padding: 0 (@const-padding / 3.12500) 0 0;
+        &:last-child {
+            padding: 0 0 0 0;
+        }
+    }
+    @media (max-width: 340px) {
+        flex-wrap: wrap;
+        &__cell {
+            flex-basis: 100%;
+            padding: 0 0 0 0;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "story-archive_ui",
+  "version": "1.0.0",
+  "description": "StoryArchive UI",
+  "main": "gruntfile.js",
+  "scripts": {
+    "devel": "grunt development",
+    "produ": "grunt production"
+  },
+  "author": "Ian Cronkright <txurtian@yahoo.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-concurrent": "^2.3.1",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-cssmin": "^2.2.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-pug": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-serve": "^0.1.6",
+    "jit-grunt": "^0.10.0",
+    "less-plugin-autoprefix": "^1.5.1",
+    "time-grunt": "^1.4.0"
+  }
+}
